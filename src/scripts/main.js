@@ -1,7 +1,7 @@
 'use strict';
 // Uncomment the next lines to use your game instance in the browser
 
-const Game = require('../modules/Game.class');
+import Game from '../modules/Game.class.js';
 
 // Write your code here
 const tbody = document.querySelector('tbody');
