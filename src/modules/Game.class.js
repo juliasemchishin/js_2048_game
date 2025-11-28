@@ -201,7 +201,6 @@ class Game {
   updateStatus() {
     if (this.board.some((row) => row.includes(2048))) {
       this.status = 'win';
-
       return;
     }
 
